@@ -1,0 +1,64 @@
+<%@ include file="../common/IncludeTop.jsp"%>
+
+<div id="BackLink">
+	<a href="ViewCategory?categoryId=${sessionScope.product.categoryId}">Return to ${sessionScope.product.categoryId}</a>
+</div>
+
+<div id="Catalog">
+
+<h2>${sessionScope.product.name}</h2>
+
+<table>
+	<tr>
+		<th>Item ID</th>
+		<th>Product ID</th>
+		<th>Description</th>
+		<th>List Price</th>
+		<th>&nbsp;</th>
+	</tr>
+	<c:forEach var="item" items="${sessionScope.itemList}">
+		<tr>
+			<td>
+				<a href="ViewItem?itemId=${item.itemId}">${item.itemId}</a>
+			</td>
+
+			<td>${item.product.productId}</td>
+			<td>
+				${item.attribute1} ${item.attribute2} ${item.attribute3}
+				${item.attribute4} ${item.attribute5} ${sessionScope.product.name}
+			</td>
+				<td>
+					<fmt:formatNumber value="${item.listPrice}" pattern="$#,##0.00" />
+				</td>
+			<td>
+
+                <c:if
+                        test="${account == null}">
+
+                    <a href="Signon">Sign In and Add to Cart</a>
+
+                </c:if> <c:if test="${account != null}">
+                <c:if test="${!sessionScope.accountBean.authenticated}">
+
+                    <a href="addItemToCart?workingItemId=${item.itemId}" class="Button">Add to Cart</a>
+
+                </c:if></c:if>
+
+<%--				<a class="Button" href="addItemToCart?workingItemId=${item.itemId}">Add to Cart</a>--%>
+			</td>
+		</tr>
+	</c:forEach>
+<%--	<tr>--%>
+<%--		<td>--%>
+<%--		</td>--%>
+<%--	</tr>--%>
+</table>
+
+</div>
+
+<%@ include file="../common/IncludeBottom.jsp"%>
+
+
+
+
+

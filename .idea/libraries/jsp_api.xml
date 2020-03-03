@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="jsp-api">
+    <CLASSES>
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/jsp-api.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/mysql-connector-java-5.1.48-bin.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/servlet-api.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/jstl-1.2.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/standard-1.1.2.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/commons-beanutils.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/commons-collections-3.0.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/commons-lang-2.1.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/commons-logging.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/ezmorph-1.0.2.jar!/" />
+      <root url="jar://D:/Program Files (x86)/java web coding/apache-tomcat-8.5.45/lib/json-lib-1.1-jdk13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

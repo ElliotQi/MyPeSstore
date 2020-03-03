@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mypetstore:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5938218f-305d-485f-a7df-109b2c868f70" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1RbCtqJ2T3IbSl7xqb8LPyMdGpL" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myJavaSpace\ideaproject\mypetstore\mypetstore\web\WEB-INF\jsp\account" />
+      <recent name="G:\学习文件\近期工作文件\mypetstore\mypetstore\src\org\csu\mypetstore\web\servlets" />
+      <recent name="G:\学习文件\近期工作文件\mypetstore\mypetstore\web\WEB-INF\jsp\cart" />
+      <recent name="G:\学习文件\近期工作文件\mypetstore\mypetstore\web\WEB-INF\jsp\catalog" />
+      <recent name="G:\学习文件\近期工作文件\mypetstore\mypetstore\src\org\csu\mypetstore\persistence\impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\学习文件\近期工作文件\mypetstore\mypetstore\web\WEB-INF\jsp\Cart" />
+      <recent name="G:\学习文件\近期工作文件\mypetstore\mypetstore\src\org\csu\mypetstore\web\servlets" />
+      <recent name="G:\学习文件\近期工作文件\mypetstore\mypetstore\web\WEB-INF\jsp" />
+      <recent name="C:\Users\HP\Desktop\mypetstore\mypetstore\src\org\csu\mypetstore\domain" />
+      <recent name="D:\myJavaSpace\ideaproject\mypetstore\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.45">
+    <configuration name="DBUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.csu.mypetstore.persistence.DBUtil" />
+      <module name="mypetstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.csu.mypetstore.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mypetstore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mypetstore" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56155" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mypetstore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DBUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5938218f-305d-485f-a7df-109b2c868f70" name="Default Changelist" comment="" />
+      <created>1569926625314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569926625314</updated>
+      <workItem from="1569926629177" duration="2793000" />
+      <workItem from="1570004930148" duration="2983000" />
+      <workItem from="1570007930665" duration="473000" />
+      <workItem from="1570008445249" duration="664000" />
+      <workItem from="1570030162951" duration="3651000" />
+      <workItem from="1570066065083" duration="7543000" />
+      <workItem from="1570082968528" duration="4083000" />
+      <workItem from="1570331849981" duration="10970000" />
+      <workItem from="1570407176905" duration="25757000" />
+      <workItem from="1570538869265" duration="5973000" />
+      <workItem from="1570579172989" duration="3555000" />
+      <workItem from="1570803203148" duration="31000" />
+      <workItem from="1571065430432" duration="276000" />
+      <workItem from="1571288774851" duration="17000" />
+      <workItem from="1572151259158" duration="1576000" />
+      <workItem from="1572154926219" duration="6039000" />
+      <workItem from="1572162986155" duration="344000" />
+      <workItem from="1572165116787" duration="2605000" />
+      <workItem from="1572187442643" duration="1155000" />
+      <workItem from="1572227723372" duration="2934000" />
+      <workItem from="1572230755732" duration="2714000" />
+      <workItem from="1572259623338" duration="11075000" />
+      <workItem from="1572271648768" duration="7310000" />
+      <workItem from="1572307642899" duration="5841000" />
+      <workItem from="1572333860502" duration="635000" />
+      <workItem from="1572335466999" duration="6705000" />
+      <workItem from="1572360342610" duration="120000" />
+      <workItem from="1572422882462" duration="4732000" />
+      <workItem from="1572442001477" duration="1286000" />
+      <workItem from="1572486650570" duration="4322000" />
+      <workItem from="1573444500084" duration="46000" />
+      <workItem from="1574682943918" duration="3340000" />
+      <workItem from="1574767236561" duration="95000" />
+      <workItem from="1574865996652" duration="1081000" />
+      <workItem from="1574947226299" duration="753000" />
+      <workItem from="1575031663105" duration="960000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
