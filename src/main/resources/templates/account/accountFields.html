@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/jpetstore.css" type="text/css" media="screen" />
+</head>
+<body>
+<div th:fragment="accountInformation">
+    <h3>Account Information</h3>
+
+    <table>
+        <tr>
+            <td>First name:</td>
+            <td><input type="text" name="firstName" th:value="${session.account?.firstName}"></td>
+        </tr>
+        <tr>
+            <td>Last name:</td>
+            <td><input type="text" name="lastName" th:value="${session.account?.lastName}"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" size="40" name="email" th:value="${session.account?.email}"></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="text" name="phone" th:value="${session.account?.phone}"></td>
+        </tr>
+        <tr>
+            <td>Address 1:</td>
+            <td><input type="text" size="40" name="address1" th:value="${session.account?.address1}"></td>
+        </tr>
+        <tr>
+            <td>Address 2:</td>
+            <td><input type="text" size="40" name="address2" th:value="${session.account?.address2}"></td>
+        </tr>
+        <tr>
+            <td>City:</td>
+            <td><input type="text" name="city" th:value="${session.account?.city}"></td>
+        </tr>
+        <tr>
+            <td>State:</td>
+            <td><input type="text" size="4" name="state" th:value="${session.account?.state}"></td>
+        </tr>
+        <tr>
+            <td>Zip:</td>
+            <td><input type="text" size="10" name="zip" th:value="${session.account?.zip}"></td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td><input type="text" size="15" name="country" th:value="${session.account?.country}"></td>
+        </tr>
+    </table>
+
+    <h3>Profile Information</h3>
+
+    <table>
+        <tr>
+            <td>Language Preference:</td>
+            <td>
+                <select name="languagePreference">
+                    <option value="english" selected="selected">english</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Favourite Category:</td>
+            <td>
+                <select name="favouriteCategoryId">
+                    <option value="FISH">FISH</option>
+                    <option selected="selected" value="DOGS">DOGS</option>
+                    <option value="REPTILES">REPTILES</option>
+                    <option value="CATS">CATS</option>
+                    <option value="BIRDS">BIRDS</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Enable MyList</td>
+            <!--                <td th:if="${session.account?.listOption}">-->
+            <!--                    <input type="checkbox" name="listOption" checked="checked" value="1">-->
+            <!--                </td>-->
+            <!--                <td th:if="${session.account?.listOption}">-->
+            <!--                    <input type="checkbox" name="listOption" value="1">-->
+            <!--                </td>-->
+            <td th:switch="${session.account?.listOption}">
+                <input th:case="true" type="checkbox" name="listOption" checked="checked" value="1">
+                <input th:case="false" type="checkbox" name="listOption" value="1">
+            </td>
+        </tr>
+        <tr>
+            <td>Enable MyBanner</td>
+            <!--                <td th:if="${session.account?.bannerOption}">-->
+            <!--                    <input type="checkbox" name="bannerOption" checked="checked" value="1">-->
+            <!--                </td>-->
+            <!--                <td th:if="${!session.account?.bannerOption}">-->
+            <!--                    <input type="checkbox" name="bannerOption" value="1">-->
+            <!--                </td>-->
+            <td th:switch="${session.account?.bannerOption}">
+                <input th:case="true" type="checkbox" name="bannerOption" checked="checked" value="1">
+                <input th:case="false" type="checkbox" name="bannerOption" value="1">
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+</body>
+</html>
